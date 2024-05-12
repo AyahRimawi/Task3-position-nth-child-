@@ -1,0 +1,25 @@
+*{margin: 0px;}
+h3{margin-left: 13px;}
+table{border-spacing: 15px;}
+td:empty{
+width: 20px;
+height: 20px;
+background-color: #cfe2f3;
+border: solid 1px black;
+}
+td:nth-child(5){background-color:#ff9900;}
+
+/* Select All But The First Five */
+/* td:nth-child(n+6){background-color:#ff9900;} */
+
+/* Select Only The First Five */
+/* td:nth-child(-n+5){background-color:#ff9900;} */
+
+/* Select Every Fourth, Starting At The First */
+/* td:nth-child(4n+1){background-color:#ff9900;} */
+
+/* Select The Last 5 elements */
+/* td:nth-child(n+7){background-color:#ff9900;} */
+
+/* Select the Second to Last Element */
+/* td:nth-child(n+2){background-color:#ff9900;}  */

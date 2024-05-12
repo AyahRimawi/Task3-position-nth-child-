@@ -1,0 +1,16 @@
+*{margin: 0px;}
+h2, hr{margin-left: 16px;
+width: 30%;}
+table{
+    border-spacing: 20px;}
+td{
+    width: 60px;
+    height: 23px;
+    text-align:center;
+    vertical-align: top;
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border:2px solid black;
+}
+td:nth-child(even){display: none;}
